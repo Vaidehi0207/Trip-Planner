@@ -3,14 +3,15 @@ import { useState } from 'react'
 // import viteLogo from '/vite.svg'
 import { Button } from './components/ui/button'
 import './App.css'
+import Hero from './components/ui/custom/Hero'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <h2>Welcome to my website!</h2>
-    <Button>Subsribe</Button>
+    {/* yaha pe we will add our hero section */}
+    <Hero/>
     </>
   )
 }
